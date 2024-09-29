@@ -1,0 +1,156 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    
+}
+
+.menu{
+    margin: 0;
+    width: 10vw;
+    min-height: 100vh;
+    flex-basis:15%;
+    border-right: 1px solid lightgray;
+}
+.miperfil{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-items: center;
+    border-bottom: 1px solid lightgray;
+    overflow: auto;
+}
+.miperfil img{
+    width: 3vw;
+    border-radius: 70%;
+    justify-content: center;
+    padding: 10px 10px 10px 20px;
+}
+
+.miperfil-textos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 59vw;
+}
+.miperfil-textos h5{
+    margin: 0;
+    font-size: 1.21vw;
+    font-weight: 500;
+}
+.miperfil-textos h6{
+    margin: 0;
+    font-size: 0.8vw;
+    font-weight: 300;
+    color:gray;
+}
+.miperfil-globo{
+    color: gray;
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+    width: 18vw;
+    text-align: center;
+    font-size: 1.21vw;
+}
+.miperfil-burger{
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    width: 18vw;
+    text-align: center;
+    justify-items: center;
+    padding-right: 10px;
+    font-size: 1.21vw;
+}
+.nuevo-chat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6em;
+    border-bottom: 1px solid lightgray;
+}
+.nuevo-chat button{
+    background-color: #a490d2;
+
+    width: 10em;
+    border: #CDC3E6;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+}
+.contactos{
+    display: flex;
+    flex-direction: column;
+}
+.clientes{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    justify-items: center;
+    border-bottom: 1px solid lightgray;
+
+}
+.clientes img{
+    width: 5vw;
+    height: 5vh;
+    justify-items: center;
+    border-radius: 70%;
+    justify-content: center;
+    padding: 2px 2px 0px 2px;
+}
+.clientes-textos{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content:flex-start;
+    width: 40vw;
+}
+.clientes-textos h5{
+    margin: 0;
+    font-size: 1vw;
+    font-weight: 400;
+    color:black;
+}
+.clientes-textos h6{
+
+    margin: 0;
+    font-size: 0.9vw;
+    font-weight: 400;
+    color:#444749;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 77vw;
+    text-align: center;
+}
+.main img{
+    width: 20vw;
+}
+.main h2{
+    width: 40vw;
+    font-size: 3vw;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.main small{
+    width: 28vw;
+    font-size: 1vw;
+    font-weight: 300;
+}
